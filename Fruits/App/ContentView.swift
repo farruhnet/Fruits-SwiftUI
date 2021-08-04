@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    //Test feature comment
     var body: some View {
         Text("Hello, world!")
             .padding()
