@@ -11,6 +11,7 @@ struct StartButtonView: View {
     
     //MARK: - PROPERTIES
     
+    //Storage property
     @AppStorage("isOnboarding") var isOnboarding: Bool?
     
     //MARK: - BODY
