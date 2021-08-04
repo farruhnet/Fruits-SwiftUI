@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1867D76E26BAA68B00F1D901 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867D76D26BAA68B00F1D901 /* FruitRowView.swift */; };
 		18FD65DE265B731800A9C963 /* FruitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD65DD265B731800A9C963 /* FruitsApp.swift */; };
 		18FD65E0265B731800A9C963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD65DF265B731800A9C963 /* ContentView.swift */; };
 		18FD65E2265B731A00A9C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD65E1265B731A00A9C963 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1867D76D26BAA68B00F1D901 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		18FD65DA265B731800A9C963 /* Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD65DD265B731800A9C963 /* FruitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsApp.swift; sourceTree = "<group>"; };
 		18FD65DF265B731800A9C963 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				18FD660B265B78B900A9C963 /* FuitCardView.swift */,
 				18FD660D265B810700A9C963 /* StartButtonView.swift */,
+				1867D76D26BAA68B00F1D901 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				18FD6616265BA91700A9C963 /* FruitData.swift in Sources */,
 				18FD65E0265B731800A9C963 /* ContentView.swift in Sources */,
+				1867D76E26BAA68B00F1D901 /* FruitRowView.swift in Sources */,
 				18FD660E265B810700A9C963 /* StartButtonView.swift in Sources */,
 				18FD65DE265B731800A9C963 /* FruitsApp.swift in Sources */,
 				18FD6610265BA2A700A9C963 /* OnboardingView.swift in Sources */,
@@ -471,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fruits/Preview Content\"";
+				DEVELOPMENT_TEAM = WT284D8VVD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fruits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,6 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fruits/Preview Content\"";
+				DEVELOPMENT_TEAM = WT284D8VVD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fruits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
