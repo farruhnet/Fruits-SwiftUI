@@ -11,6 +11,8 @@ struct ContentView: View {
     
     //MARK: - PROPERTIES
     
+    @State private var isShowingSettins: Bool = false
+    
     var fruits: [Fruit] = fruitsData
     
    
@@ -27,6 +29,16 @@ struct ContentView: View {
                    }
                 }
             }.navigationTitle("Fruits")
+            .navigationBarItems(
+                trailing: Button(action: {
+                    isShowingSettins = true
+                }, label: {
+                    Image(systemName: "slider.horizontal.3")
+                }).sheet(isPresented: $isShowingSettins, content: {
+                    SettingsView()
+                })//: BUTTON
+            )
+            
             
         }//: NAVIGATION
     }

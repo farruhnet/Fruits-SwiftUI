@@ -52,7 +52,7 @@ struct FruitDetailsView: View {
             })// : SCROLL
             .edgesIgnoringSafeArea(.top)
         }//: NAVIGATION
-        .navigationBarTitle(fruit.title, displayMode: .automatic)
+        .navigationBarTitle(fruit.title, displayMode: .inline)
         .navigationBarHidden(false)
     }
 }
