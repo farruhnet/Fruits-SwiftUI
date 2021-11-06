@@ -21,14 +21,13 @@ struct SettingsView: View {
                 VStack(spacing: 20) {
                     
                     //MARK: - SECTION 1
-                    
                     GroupBox(
                         label:
                             HStack {
-                                Text("Fructus".uppercased()).fontWeight(.bold)
-                                Spacer()
-                                Image(systemName: "info.circle")
+                                SettingLabelView(labelText: "Fructus", labelImage: "info.circle")
                             }, content: {
+                                Divider().padding(.vertical, 4)
+                                
                             Text("Content")
                     })
                     //MARK: - SECTION 2
